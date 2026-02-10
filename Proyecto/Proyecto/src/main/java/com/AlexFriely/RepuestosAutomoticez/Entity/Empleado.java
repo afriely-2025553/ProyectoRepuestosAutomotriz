@@ -66,4 +66,6 @@ public class Empleado {
     public void setEmail_empleado(String email_empleado) {
         this.email_empleado = email_empleado;
     }
+
+
 }
