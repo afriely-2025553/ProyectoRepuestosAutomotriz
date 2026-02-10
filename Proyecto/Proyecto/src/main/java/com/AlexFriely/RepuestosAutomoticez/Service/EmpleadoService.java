@@ -1,7 +1,6 @@
 package com.AlexFriely.RepuestosAutomoticez.Service;
 
-import com.AlexFriely.RepuestosAutomoticez.Models.Empleado;
-import jakarta.persistence.criteria.CriteriaBuilder;
+import com.AlexFriely.RepuestosAutomoticez.Entity.Empleado;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

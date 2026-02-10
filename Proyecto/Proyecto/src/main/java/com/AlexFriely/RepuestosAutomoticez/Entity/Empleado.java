@@ -1,4 +1,4 @@
-package com.AlexFriely.RepuestosAutomoticez.Models;
+package com.AlexFriely.RepuestosAutomoticez.Entity;
 
 import jakarta.persistence.*;
 

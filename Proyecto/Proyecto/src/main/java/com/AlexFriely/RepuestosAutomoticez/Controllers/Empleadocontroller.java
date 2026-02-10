@@ -1,16 +1,13 @@
 package com.AlexFriely.RepuestosAutomoticez.Controllers;
 
-import com.AlexFriely.RepuestosAutomoticez.Models.Empleado;
-import com.AlexFriely.RepuestosAutomoticez.Repository.EmpleadoRepository;
+import com.AlexFriely.RepuestosAutomoticez.Entity.Empleado;
 import jakarta.validation.Valid;
-import org.hibernate.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.AlexFriely.RepuestosAutomoticez.Service.EmpleadoService;
 
 import java.util.List;
-import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/empleados")

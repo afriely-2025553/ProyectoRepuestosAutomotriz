@@ -1,7 +1,7 @@
 package com.AlexFriely.RepuestosAutomoticez.Service;
 
 
-import com.AlexFriely.RepuestosAutomoticez.Models.Empleado;
+import com.AlexFriely.RepuestosAutomoticez.Entity.Empleado;
 import com.AlexFriely.RepuestosAutomoticez.Repository.EmpleadoRepository;
 import org.springframework.stereotype.Service;
 
