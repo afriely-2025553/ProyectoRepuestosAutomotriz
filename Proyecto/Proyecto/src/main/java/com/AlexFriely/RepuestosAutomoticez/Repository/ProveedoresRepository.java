@@ -1,4 +1,11 @@
 package com.AlexFriely.RepuestosAutomoticez.Repository;
 
-public interface ProveedoresRepository {
+import com.AlexFriely.RepuestosAutomoticez.Entity.Proveedor;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProveedoresRepository extends JpaRepository<Proveedor, Integer>{
+
+
 }
