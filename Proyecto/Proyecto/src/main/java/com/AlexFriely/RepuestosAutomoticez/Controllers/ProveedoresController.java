@@ -1,4 +1,4 @@
 package com.AlexFriely.RepuestosAutomoticez.Controllers;
 
-public class ProveedoresEmpleado {
+public class ProveedoresController {
 }
