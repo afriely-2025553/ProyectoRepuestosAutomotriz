@@ -10,5 +10,5 @@ public interface ProveedoresService {
     Proveedor getProveedorById(Integer id);
     Proveedor saveProveedor(Proveedor proveedor) throws RuntimeException;
     Proveedor updateProveedor(Integer id, Proveedor proveedor);
-    void deleteEmpleado(Integer id);
+    void deleteProveedor(Integer id);
 }
