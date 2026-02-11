@@ -49,7 +49,7 @@ public class ProveedoresServiceImplements  implements ProveedoresService{
     }
 
     @Override
-    public void deleteEmpleado(Integer id) {
+    public void deleteProveedor(Integer id) {
          Proveedor proveedor = proveedoresRepository.findById(id).orElse(null);
          if(proveedor == null) {
              throw new IllegalArgumentException("empleado no encontrado");
