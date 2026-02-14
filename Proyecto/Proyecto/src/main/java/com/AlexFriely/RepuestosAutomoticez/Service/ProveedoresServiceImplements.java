@@ -24,7 +24,7 @@ public class ProveedoresServiceImplements  implements ProveedoresService{
     public Proveedor getProveedorById(Integer id) {
         Proveedor proveedor = proveedoresRepository.findById(id).orElse(null);
         if(proveedor == null) {
-            throw new IllegalArgumentException("Empleado no encontrado");
+            throw new IllegalArgumentException("Proveedor no encontrado");
         }
         return proveedoresRepository.findById(id).orElse(null);
     }
