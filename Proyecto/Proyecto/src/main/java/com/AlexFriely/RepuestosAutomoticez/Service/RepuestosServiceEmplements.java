@@ -24,7 +24,7 @@ public class RepuestosServiceEmplements implements RepuestosService{
     public Repuestos getRepuestosById(Integer id) {
         Repuestos repuestos = repuestosRepository.findById(id).orElse(null);
         if (repuestos == null) {
-            throw new IllegalArgumentException("Repeusto no encontrado");
+            throw new IllegalArgumentException("Repuesto no encontrado");
         }
         return repuestosRepository.findById(id).orElse(null);
     }
