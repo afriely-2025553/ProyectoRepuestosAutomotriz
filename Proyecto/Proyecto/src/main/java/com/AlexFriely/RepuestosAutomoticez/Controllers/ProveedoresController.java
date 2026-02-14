@@ -1,7 +1,5 @@
 package com.AlexFriely.RepuestosAutomoticez.Controllers;
 
-
-import com.AlexFriely.RepuestosAutomoticez.Entity.Empleado;
 import com.AlexFriely.RepuestosAutomoticez.Entity.Proveedor;
 import com.AlexFriely.RepuestosAutomoticez.Service.ProveedoresService;
 import jakarta.validation.Valid;
